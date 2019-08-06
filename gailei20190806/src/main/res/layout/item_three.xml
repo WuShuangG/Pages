@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EEEEEE"
+    >
+
+    <ImageView
+        android:id="@+id/iv3"
+        android:layout_margin="20dp"
+        android:layout_width="50dp"
+        android:layout_height="50dp" />
+    <LinearLayout
+        android:id="@+id/tv3"
+        android:background="@drawable/chat_from_bg_normal"
+        android:layout_toRightOf="@id/iv3"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:id="@+id/ivs"
+            android:layout_width="150dp"
+            android:layout_height="150dp" />
+
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>
